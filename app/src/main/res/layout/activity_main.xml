@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_transaction_detaiols_02"
+            android:layout_width="250dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="153dp"
+            android:layout_marginLeft="153dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="170dp"
+            android:layout_marginRight="170dp"
+            android:text="transaction_details_02"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_sp_technical_call_02"
+            android:layout_width="250dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginRight="112dp"
+            android:text="sp_technical_Support_call_02"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_transaction_detaiols_02" />
+
+        <Button
+            android:id="@+id/btn_sp_technical_call_01"
+            android:layout_width="250dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="24dp"
+            android:text="sp_technical_Support_call_01"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_sp_technical_call_02" />
+
+        <Button
+            android:id="@+id/btn_help_and_support"
+            android:layout_width="250dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginRight="112dp"
+            android:text="Help and Support"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_feedback" />
+
+        <Button
+            android:id="@+id/btn_feedback"
+            android:layout_width="250dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginRight="112dp"
+            android:text="Feedback Form"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_sp_technical_call_01" />
+
+        <Button
+            android:id="@+id/btn_about_us"
+            android:layout_width="250dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginRight="112dp"
+            android:text="About Us"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.521"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_help_and_support" />
+
+        <Button
+            android:id="@+id/btn_previousOrders"
+            android:layout_width="250dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginRight="112dp"
+            android:text="Previous Orders"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.521"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_about_us" />
+
+        <Button
+            android:id="@+id/btn_Help"
+            android:layout_width="250dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginRight="112dp"
+            android:text="Help"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_previousOrders" />
+
+        <Button
+            android:id="@+id/btn_terms_and_conditions"
+            android:layout_width="250dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginRight="112dp"
+            android:text="Terms and Conditions"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.521"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_Help" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

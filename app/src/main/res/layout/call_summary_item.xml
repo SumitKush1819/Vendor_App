@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linear_layout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:background="#A5A5A5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="28th July, 2018"
+                        android:padding="10dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:paddingLeft="20dp" />
+                    <TextView
+                        android:id="@+id/time"
+                        android:background="#A5A5A5"
+                        android:textColor="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="10:30 a.m"
+                        android:padding="10dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:paddingRight="20dp" />
+
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/frame1"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/car_background"
+                    android:layout_height="48dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_gravity="left"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:layout_marginLeft="24dp"
+                        android:text="Car #123"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="16dp"
+                        android:drawablePadding="4dp"
+                        android:id="@+id/remove"
+                        android:layout_gravity="right"
+                        android:clickable="true"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:layout_marginRight="8dp"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_chevron_right_black_24dp" />
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="98dp"
+                    android:background="@drawable/booking_history_background"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:id="@+id/cs_carImg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="16dp"
+                        android:src="@drawable/s_vehicle" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingTop="8dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="24dp">
+
+                            <TextView
+                                android:id="@+id/cs_carModel"
+                                android:textSize="16dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_semibold"
+                                android:text="Wagon R" />
+
+                            <TextView
+                                android:id="@+id/cs_NumberPlate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="16dp"
+                                android:textSize="16dp"
+                                android:text="DL1P3201" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="8dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/cs_reason"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mechanical Fault"
+                                android:textColor="#FA921F"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_weight="3"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/s_phone_black"
+                        android:paddingLeft="8dp"/>
+
+                    <TextView
+                        android:id="@+id/cs_contactNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="9864531286"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textSize="16sp"
+                        android:layout_weight="1.5"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textSize="12sp"
+                        android:text="Removed"
+                        android:textColor="@color/red"
+                        android:gravity="center"
+                        android:paddingRight="20dp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/reasonImg"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="6dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle_border"
+            android:padding="12dp"
+            android:src="@drawable/s_phone" />
+
+    </FrameLayout>
+
+</FrameLayout>

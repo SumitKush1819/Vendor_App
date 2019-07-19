@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vendor App</string>
+    <string name="actionBar">Technical Support</string>
+    <string name="rubbing_polishing"><![CDATA[Rubbing & Polishing]]></string>
+    <string name="booking_date_time"><![CDATA[Booking date & time]]></string>
+    <string name="pickup_date_time"><![CDATA[Pickup date & time]]></string>
+    <string name="service_date_time"><![CDATA[Service date & time]]></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="remove">Remove</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="cancellation_refunds">
+<![CDATA[
+Cancellation & Refunds
+]]>
+</string>
+
+</resources>
